@@ -4,7 +4,7 @@ public with sharing class OrderController {
     @AuraEnabled(cacheable=true)
     public static ResponseBody getOrdersList(String orderId) {
         
-        //getting JSON response here
+        //getting JSON response here for deserialize
         String json = getMockJSONresponse(orderId);
 
         ResponseBody responseBody = (ResponseBody)System.JSON.deserialize(json, ResponseBody.class);
