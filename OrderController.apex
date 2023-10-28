@@ -33,7 +33,7 @@ public with sharing class OrderController {
         @AuraEnabled public List<OrderItem> orderItems;
     }
 
-    // Wrapper Class for each Order Item record
+    // Wrapper Class for each Order Item record with all details
     public class OrderItem {
         @AuraEnabled public String externalOrderId;
         @AuraEnabled public String name;
