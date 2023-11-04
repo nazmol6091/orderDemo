@@ -18,7 +18,7 @@ public with sharing class OrderController {
     public static String getMockJSONresponse(String orderId) {
         return '{"Status":"200",'
         +'"Message":"Order Items are successfully created in the External System with next Data. ",'
-        +'"OrderNumber":"00000100",'
+        //+'"OrderNumber":"00000100",'
         +'"OrderItems":['
         +'{"ExternalOrderId":"ORDER-IT-145237","Name":"Screen size 21 inch", "Family": "Hardware","SKU":"card-rts-21","OrderDate":"1547250828000"},'
         +'{"ExternalOrderId":"ORDER-IT-612753","Name":"Full HD Screen with 51 inch", "Family": "Hardware","SKU":"card-rtp-51","OrderDate":"1547250828000"}'
