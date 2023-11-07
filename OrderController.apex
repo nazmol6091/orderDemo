@@ -10,6 +10,7 @@ public with sharing class OrderController {
         ResponseBody responseBody = (ResponseBody)System.JSON.deserialize(json, ResponseBody.class);
 
         System.debug('responseBody: ' + responseBody);
+        System.debug('responseBody2: ' + responseBody);
 
         return responseBody;
     }
