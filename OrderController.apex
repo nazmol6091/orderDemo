@@ -26,6 +26,8 @@ public with sharing class OrderController {
         +']}';
  // here
 
+// New logic
+
     }
 
     // Wrapper Class for Respone which contains info about Order and list of Order Items
